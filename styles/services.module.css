@@ -1,0 +1,36 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    height: 250vh;
+    width: 100%;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.serv3d{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    gap: 2rem;
+    padding: 2rem;
+}
+.serv2d{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    gap: 5rem;
+    padding: 2rem;
+}
+.furnserv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    gap: 2rem;
+    padding: 2rem;
+}

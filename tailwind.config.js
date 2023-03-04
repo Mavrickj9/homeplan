@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        jakata: "'Plus Jakarta Sans', sans-serif",
+        mont: "'Plus Jakarta Sans', sans-serif",
       },
     },
   },
