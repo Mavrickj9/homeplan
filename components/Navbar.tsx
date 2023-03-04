@@ -35,8 +35,8 @@ const Navbar = () => {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between md:block">
-            <div className="flex items-center p-0">
-              <Image src="/logo.jpg" alt="" width={200} height={200} priority />
+            <div className="flex items-center p-0 w-auto h-auto">
+              <Image src="/logo.jpg" alt="" width={200} height={200} />
             </div>
             <div className="md:hidden">
               <button
