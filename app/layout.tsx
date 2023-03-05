@@ -2,6 +2,7 @@ import './globals.css'
 import Navbar from './../components/Navbar';
 import Home from './../components/Home';
 import Services from '@/components/Services';
+import WhyUs from '@/components/WhyUs';
 
 export const metadata = {
   title: 'Benchmark Solutions',
@@ -19,6 +20,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Home />
+        <WhyUs />
         <Services />
         </body>
     </html>
