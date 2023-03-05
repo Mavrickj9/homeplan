@@ -6,9 +6,14 @@ import css from "./../styles/services.module.css";
 const Services = () => {
   return (
     <div className={css.services} id="services">
+      <div className="border-t-4 border-stone-800 pt-10">
+      <h1 className="text-center font-bold mb-3 text-5xl tracking-wide" color="#732F24">
+          Services
+      </h1>
+      </div>
       <div className="items">
         <div className={css.serv3d}>
-          <div className="border-r-4 border-stone-600 pr-20">
+          <div className="border-r-4 border-stone-900 pr-20">
             <Image src="/3dplan.jpg" alt="" width={520} height={520} />
           </div>
           <p>
@@ -23,12 +28,12 @@ const Services = () => {
             house design of your dreams. Tailor your house blueprints with our
             modification service
           </p>
-          <div className="border-l-4 border-stone-600 pl-20">
+          <div className="border-l-4 border-stone-900 pl-20">
           <Image src="/openfloorplan.jfif" alt="" width={450} height={450} />
           </div>
         </div>
         <div className={css.furnserv}>
-          <div className="border-r-4 border-stone-600 pr-20">
+          <div className="border-r-4 border-stone-900 pr-20">
           <Image src="/furnlayout2.webp" alt="" width={450} height={450} />
           </div>
           <p>

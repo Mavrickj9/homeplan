@@ -7,14 +7,18 @@ import { IoStorefrontSharp } from "react-icons/io5";
 const WhyUs = () => {
   return (
     <section className="sect" id="whyUs">
-      <div className="my-12 pb-2 md:pt-16 md:pb-20">
-        <h1 className="text-center font-bold text-4xl">Why Us</h1>
+      <div className="my-12 md:pt-16 md:pb-2">
+        <h1 className="text-center font-bold mb-3 text-5xl tracking-wider" color="#732F24">
+          Why Us
+        </h1>
         <div className="flex flex-col space-y-10 items-stretch justify-center align-center items-center md:space-x-10 md:space-y-0 md:p-6 md:flex-row md:text-center">
           <div className="md:w-1/3">
-            <div>
-            <FaRegEdit size={50} />
+            <div className="flex justify-center align-center">
+              <FaRegEdit size={70} color="#F26419" />
             </div>
-            <h2 className="text-center text-2xl font-bold mb-6 md:text-center">Customize your home plan</h2>
+            <h2 className="text-center text-xl font-bold mb-6 md:text-center">
+              Customize your home plan
+            </h2>
             <p>
               We will work with you to make small or large changes so you get
               the house design of your dreams. Tailor your house blueprints with
@@ -22,10 +26,12 @@ const WhyUs = () => {
             </p>
           </div>
           <div className="md:w-1/3">
-            <div className="justify-center align-center">
-            <HiOutlineCurrencyDollar size={50} />
+            <div className="flex justify-center align-center">
+              <HiOutlineCurrencyDollar size={70} color="#557821" />
             </div>
-            <h2 className="text-center text-2xl font-bold mb-6 md:text-center">Stay on budget / low price guarantee</h2>
+            <h2 className="text-center text-xl font-bold mb-6 md:text-center">
+              Stay on budget / low price guarantee
+            </h2>
             <p>
               Get a Cost to Build report for any house plan. We also offer a low
               price guarantee for home plans and will beat the competition’s
@@ -35,10 +41,12 @@ const WhyUs = () => {
             </p>
           </div>
           <div className="md:w-1/3">
-            <div>
-            <IoStorefrontSharp size={50} />
+            <div className="flex justify-center align-center">
+              <IoStorefrontSharp size={70} color="#F6AE2D" />
             </div>
-            <h2 className="text-center text-2xl font-bold mb-6 md:text-center">Get personalized help with your house blueprints</h2>
+            <h2 className="text-center text-xl font-bold mb-6 md:text-center">
+              Get personalized help with your house blueprints
+            </h2>
             <p>
               Shopping for house designs can feel overwhelming. Our experienced
               house blueprint experts are ready to help you find the house plans
