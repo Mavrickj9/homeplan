@@ -9,7 +9,7 @@ const WhyUs = () => {
     <section className="sect" id="whyUs">
       <div className="my-12 pb-2 md:pt-16 md:pb-20">
         <h1 className="text-center font-bold text-4xl">Why Us</h1>
-        <div className="flex flex-col space-y-10 items-stretch justify-center align-center items-center md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-center">
+        <div className="flex flex-col space-y-10 items-stretch justify-center align-center items-center md:space-x-10 md:space-y-0 md:p-6 md:flex-row md:text-center">
           <div className="md:w-1/3">
             <div>
             <FaRegEdit size={50} />
