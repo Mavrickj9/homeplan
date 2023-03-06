@@ -11,7 +11,7 @@ const Services = () => {
         <hr className="w-16 h-1 mx-auto my-4 bg-teal-900 border-0 rounded"></hr>
       </h1>
 
-      <div className="items md:p-6 md:flex-col md:text-center">
+      <div className="md:p-6 md:flex-col md:text-center">
         <div className={css.serv3d}>
           <div className="border-r-4 border-stone-900 pr-20">
             <Image src="/3dplan.jpg" alt="" width={520} height={520} />
