@@ -1,8 +1,10 @@
 import './globals.css'
-import Navbar from './../components/Navbar';
-import Home from './../components/Home';
+import Navbar from "@/components/Navbar";
+import Home from "@/components/Home";
 import Services from '@/components/Services';
 import WhyUs from '@/components/WhyUs';
+import Gallery from "@/components/Gallery";
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Benchmark Solutions',
@@ -16,13 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
+      <body>        
         {children}
+        <Navbar />
         <Home />
         <WhyUs />
         <Services />
-        </body>
+        <Gallery />
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }

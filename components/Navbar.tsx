@@ -15,6 +15,10 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "home",
   },
   {
+    label: "WhyUs",
+    page: "whyUs",
+  },
+  {
     label: "Services",
     page: "services",
   },
@@ -55,7 +59,7 @@ const Navbar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center font-jakata text-xl rounded-md  text-blue-700 justify-center space-y-4 md:flex md:space-x-12 md:space-y-0">
+            <div className="items-center font-jakata text-2xl rounded-md text-rose-900 justify-center space-y-4 md:flex md:space-x-12 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link

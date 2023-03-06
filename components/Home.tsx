@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className={css.opfade}></div>
       <div className={css.herotext}>
-        <h1>BENCHMARK SOLUTIONS</h1>
+        <h1 className="flex justify-center align-center">BENCHMARK SOLUTIONS</h1>
         <h3>House Designs</h3>
         Be confident in knowing you are buying floor plans for your new home
         from a trusted source offering the highest-standards-in-the industry for

@@ -8,7 +8,7 @@ const WhyUs = () => {
   return (
     <section className="sect" id="whyUs">
       <div className="my-12 md:pt-16 md:pb-2">
-        <h1 className="text-center font-bold mb-3 text-5xl tracking-wider" color="#732F24">
+        <h1 className="text-center md:pb-3 text-rose-900 font-bold mb-3 text-5xl tracking-wider">
           Why Us
         </h1>
         <div className="flex flex-col space-y-10 items-stretch justify-center align-center items-center md:space-x-10 md:space-y-0 md:p-6 md:flex-row md:text-center">
@@ -16,7 +16,7 @@ const WhyUs = () => {
             <div className="flex justify-center align-center">
               <FaRegEdit size={70} color="#F26419" />
             </div>
-            <h2 className="text-center text-xl font-bold mb-6 md:text-center">
+            <h2 className="text-center text-xl text-rose-900 font-bold mb-6 md:text-center">
               Customize your home plan
             </h2>
             <p>
@@ -29,7 +29,7 @@ const WhyUs = () => {
             <div className="flex justify-center align-center">
               <HiOutlineCurrencyDollar size={70} color="#557821" />
             </div>
-            <h2 className="text-center text-xl font-bold mb-6 md:text-center">
+            <h2 className="text-center text-xl text-rose-900 font-bold mb-6 md:text-center">
               Stay on budget / low price guarantee
             </h2>
             <p>
@@ -44,7 +44,7 @@ const WhyUs = () => {
             <div className="flex justify-center align-center">
               <IoStorefrontSharp size={70} color="#F6AE2D" />
             </div>
-            <h2 className="text-center text-xl font-bold mb-6 md:text-center">
+            <h2 className="text-center text-xl text-rose-900 font-bold mb-6 md:text-center">
               Get personalized help with your house blueprints
             </h2>
             <p>
@@ -55,6 +55,7 @@ const WhyUs = () => {
           </div>
         </div>
       </div>
+      <hr className="h-1 mx-auto my-4 bg-stone-900 border-0 rounded"></hr>
     </section>
   );
 };
